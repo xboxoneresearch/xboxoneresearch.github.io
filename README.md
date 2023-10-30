@@ -6,4 +6,4 @@ For contributing, fork https://github.com/xboxoneresearch/wiki and send a Pull R
 
 ### Support or Contact
 
-You can reach out to us on [Matrix Chat](https://matrix.to/#/#xboxoneresearch:matrix.org)
+You can reach out to us on [Matrix Chat](https://matrix.to/#/#xboxoneresearch_space:matrix.org)
