@@ -1,0 +1,10 @@
+# docker-compose.yml
+version: "3.9"
+services:
+  jekyll:
+    image: jekyll/jekyll:pages
+    command: jekyll serve
+    ports:
+      - 4000
+    volumes:
+      - .:/srv/jekyll
