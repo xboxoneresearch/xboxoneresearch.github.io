@@ -5,8 +5,6 @@
 layout: home
 ---
 
-## Welcome!
-
 Check out our wiki [here](https://xboxoneresearch.github.io/wiki).
 
 For contributing, fork <https://github.com/xboxoneresearch/wiki> and send a Pull Request.
