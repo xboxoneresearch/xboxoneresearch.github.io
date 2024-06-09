@@ -14,8 +14,9 @@ categories: news
 > 1. Ensure your Xbox Live account Login-Type is configured as "No barriers" aka. auto-login with no password prompt
 > 2. Set your console as "Home Console" for this account
 > 3. Download the App [Game Script](https://apps.microsoft.com/detail/9pb1gw72nv4w)
-> 4. Take your console offline! To make extra sure it cannot reach the internet, set a manual primary DNS address of `127.0.0.1`
-> 5. Get a device/microcontroller that can simulate a Keyboard (rubber ducky or similar) - otherwise you have to type a lot manually :D
+> 4. Start the app (to ensure license is downloaded/cached)
+> 5. Take your console offline! To make extra sure it cannot reach the internet, set a manual primary DNS address of `127.0.0.1`
+> 6. Get a device/microcontroller that can simulate a Keyboard (rubber ducky or similar) - otherwise you have to type a lot manually :D
 
 # Xbox One Research - News summary
 
