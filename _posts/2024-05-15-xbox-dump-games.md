@@ -37,7 +37,7 @@ Next problem is the license. Every time you load a game on the Xbox, as well as 
 
 - `S:\clip\*.xml`
 
-These licenses that are cached are primarily digital. Disc-based games contain the license on there which is only loaded when inserted into the ODD. Anyways, the license is typically unloaded after the game exits. This means we need a way to force load the license ourselves.
+These licenses that are cached are primarily digital. [Disc-based games](https://xboxoneresearch.github.io/wiki/games/xbox-game-disc/) contain the license on there which is only loaded when inserted into the ODD. Anyways, the license is typically unloaded after the game exits. This means we need a way to force load the license ourselves.
 
 The service responsible is known as **MicrosoftXboxSecurityClip** - located within System32 in the System OS. It's pretty straightforward to reverse and map out the calls (especially thanks to **AppServices**!)
 
@@ -51,4 +51,4 @@ Now as we launch our vulnerable game and given that the license for our target g
 
 ![example hint](/assets/durango_dumplings/example_hint.png)
 
-Viola!
+Voila!
