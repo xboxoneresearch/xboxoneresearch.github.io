@@ -12,3 +12,7 @@ For contributing, fork <https://github.com/xboxoneresearch/wiki> and send a Pull
 ### Support or Contact
 
 You can reach out to us on [Matrix Chat](https://matrix.to/#/#xboxoneresearch_space:matrix.org)
+
+### Friends
+
+- Xbox-Scene over at [Discord](https://discord.gg/VcdSfajQGK)
