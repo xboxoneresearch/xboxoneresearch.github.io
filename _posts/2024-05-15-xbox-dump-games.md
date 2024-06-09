@@ -7,9 +7,13 @@ categories: games
 
 # Bazinga! Dumping Games on a Retail
 
+Update 2024.06.09 - Slightly updated the post with more clarifications.
+
 ## Intro
 
-After achieving code execution on the Xbox (System OS: 10.0.22621.3446) and utilizing [CVE-2023-21768](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet) for a kernel read-write primitive, there was a brief period were attempts to extract retail game data failed while in the System VM. Further investigation for alternative methods were running slim, without having to work on furthering the chain for a Host OS exploit, there was an oversight discovered within the Game OS (ERA).
+After achieving code execution on the Xbox in Retail mode (System OS: 10.0.22621.3446) and utilizing [CVE-2023-21768](https://github.com/xboxoneresearch/CVE-2023-21768-dotnet) for a kernel read-write primitive, there was a brief period were attempts to extract retail game data failed while in the System VM. While it's possible to mount XVCs into SytemOS, the OS will only let you read/dump the plaintext files in the container (Icons that show in dashboard, app manifest).
+
+Further investigation for alternative methods were running slim, without having to work on furthering the chain for a Host OS exploit. Then an oversight was discovered within the Game OS (ERA)!
 
 Let's look into that. Please note, details in regards to code execution and the entry point aren't shareable at the moment.
 
@@ -29,7 +33,10 @@ So, based on seeing this occur - that would mean that if you replaced the `tempX
 
 ## But how would we read the mount data?
 
-Fortunately, many games will actually use LUA for gameplay scripting and more. Such game, though there are more, will only be hinted at. But the save data that the game stores allows the user to decompress and modify the scripts directly - allowing a little bit of execution. Of course, you do need access to ConnectedStorage but as briefly mentioned in the beginning - that's already accessible.
+Fortunately, many games will actually use LUA with FFI for gameplay scripting and more. Such game, though there are more, will only be hinted at. But the save data that the game stores, allows the user to decompress and modify the scripts directly - allowing a little bit of execution.
+Of course, you do need access to [ConnectedStorage](https://xboxoneresearch.github.io/wiki/games/savegames/) to mount/modify savegames, but as briefly mentioned in the beginning - that's already accessible with Code Execution in SystemOS! [XCrdUtil](https://xboxoneresearch.github.io/wiki/operating-system/xcrdutil/#examples) is your friend here.
+
+NOTE: Lua FFI is not the only option for executing code in EraOS, it is just the most comfortable :D
 
 ## Almost there!
 
