@@ -7,6 +7,8 @@ categories: news
 
 > ##### Notice for users who would like code execution in SystemOS in the future
 >
+> Compatible with Xbox One/S/X, Series S/X
+>
 > On 2024/06/08 a method for gaining user- and kernel-level code execution [SystemOS](https://xboxoneresearch.github.io/wiki/operating-system/xbox-operating-system/#system) was announced.
 > It is likely to be patched soon (in next System Update).
 >
