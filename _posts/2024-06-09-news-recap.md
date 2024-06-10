@@ -17,6 +17,8 @@ categories: news
 > 4. Start the app (to ensure license is downloaded/cached)
 > 5. Take your console offline! To make extra sure it cannot reach the internet, set a manual primary DNS address of `127.0.0.1`
 > 6. Get a device/microcontroller that can simulate a Keyboard (rubber ducky or similar) - otherwise you have to type a lot manually :D
+>
+> UPDATE 2024/06/10: [Exploit author @carrot_c4k3's twitter](https://nitter.poast.org/carrot_c4k3/status/1799981812523172027#m)
 
 # Xbox One Research - News summary
 
