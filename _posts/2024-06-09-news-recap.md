@@ -18,7 +18,7 @@ categories: news
 > 3. Download the App [Game Script](https://apps.microsoft.com/detail/9pb1gw72nv4w)
 > 4. Start the app (to ensure license is downloaded/cached)
 > 5. Take your console offline! To make extra sure it cannot reach the internet, set a manual primary DNS address of `127.0.0.1`
-> 6. Get a device/microcontroller that can simulate a Keyboard (rubber ducky or similar) - otherwise you have to type a lot manually :D
+> 6. Get a device/microcontroller that can simulate a Keyboard (rubber ducky or similar) - alternatively download the app [Notepad T'](https://apps.microsoft.com/detail/9nblggh68gks?hl=en-us&gl=US) along with a flash drive containing the PoC or any future scripts as a txt file.
 >
 > UPDATE 2024/06/10: [Exploit author @carrot_c4k3's twitter](https://nitter.poast.org/carrot_c4k3/status/1799981812523172027#m)
 
