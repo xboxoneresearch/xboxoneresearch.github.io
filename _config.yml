@@ -25,8 +25,14 @@ baseurl: ""
 url: "https://xboxoneresearch.github.io"
 github_username:  xboxoneresearch
 
+author:
+  name: Xbox One Research Team
+  email: ""
+
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
 
