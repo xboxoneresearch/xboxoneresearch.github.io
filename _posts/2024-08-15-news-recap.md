@@ -55,7 +55,7 @@ For anyone else interested in dumping their games on later firmwares, you are no
 
 After the reports of the issues mentioned for the original Durango Dumplings method, we investigated once more in search of another method.
 
-On both OS versions **10.0.25398.4908** and **10.0.25398.4909** we were still able to copy a game XVC to the temp. XVD location, and were also stil able to the appropriate license - so far so good.
+On both OS versions **10.0.25398.4908** and **10.0.25398.4909** we were still able to copy a game XVC to the temp. XVD location, and were also still able to load the appropriate license - so far so good.
 
 However, when starting the game... The T:\ drive was just empty!
 
